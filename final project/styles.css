@@ -1,0 +1,483 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5
+{
+    font-family: 'Overpass';
+    font-weight: 600;
+    
+}
+h1
+{
+    font-size: 45px;
+}
+.Hblue
+{
+    color: hsl(208, 49%, 24%);
+}
+.footer-H
+{
+    color: hsl(240, 12%, 93%);;
+}
+p, button, .list{
+    font-family: 'Ubuntu';
+    font-weight: 400;
+}
+p{
+    line-height: 1.5;
+    color: hsl(207, 13%, 34%);
+}
+.P-white
+{
+    color: white;
+}
+.P-With-reliability
+{
+    width: 80%;
+}
+
+.list{
+    line-height: 1.5;
+}
+li{
+    color: hsl(240, 2%, 79%);
+}
+
+#thirdcontainer-imagepart-mobile, #subcontainer2offirst-imagepart-mobile
+{
+    display: none;
+}
+.navbar {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 2%;
+    margin: 0 5% 0;
+}
+.first-blogr
+{
+    height: 100%;
+    padding-top: 8px;
+}
+.navbar-mobile
+{
+    display: none;
+}
+
+.emptydiv {
+    padding-left: 40%;
+}
+
+.header {
+    background-image: linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%)),
+    url("./images/bg-pattern-intro-desktop.svg");
+    background-blend-mode: overlay; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;    
+    border-bottom-left-radius: 100px;
+    color: white;
+}
+.subcontainer1ofheader, .subcontainer2ofheader
+{
+    text-align: center;
+
+}
+button
+{
+    border-radius: 30px;
+    background-color: transparent;
+    padding: 1% 2%;
+    border: 1px solid white;
+    color: white;
+}
+.login, .sign-up
+{
+    height: 40px;
+
+}
+#start-for-free
+{
+    margin-right: 12px;
+}
+button:hover
+{
+    background-color: white;
+    color: hsl(353, 100%, 62%);
+}
+.subcontainer2ofheader
+{
+    padding-bottom: 10%;
+    padding-top: 3%;
+}
+.subcontainer1offirst
+{
+    text-align: center;
+    padding-top: 5rem;
+}
+.subcontainer2offirst
+{
+    display: flex;
+    
+}
+.subcontainer2offirst-textpart
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-left: 5rem;
+    padding-top: 5rem;
+}
+#subcontainer2offirst-imagepart-desktop
+{
+    height: 40rem;
+    position: relative;
+    right: -11rem;
+    top: -5rem;
+}
+.subcontainer2offirst-imagepart
+{
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+}
+
+.secondcontainer
+{
+    display: flex;
+    background-color: hsl(208, 49%, 24%);
+    border-top-right-radius: 5rem; 
+    border-bottom-left-radius: 5rem;  
+    justify-content: space-evenly;
+    height: 20rem; 
+    background-image: url(./images/bg-pattern-circles.svg);
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: bottom;
+    color: white;
+
+    
+}
+#secondcontainerimage
+{
+    height: 30rem;
+    position: relative;
+    bottom: 21%;
+}
+.secondcontainerimage
+{
+    flex: 1;
+}
+.secondcontainertext
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+   
+}
+
+
+
+.thirdcontainer
+{
+    display: flex;
+    margin-top: 7rem;
+    
+    
+}
+.thirdcontainer-textpart
+{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding-top: 10rem;
+}
+#thirdcontainer-imagepart-desktop
+{
+    height: 40rem;
+    position: absolute;
+    left: -14rem;
+}
+.thirdcontainer-imagepart
+{
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+footer
+{
+    margin-top: 20rem;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: hsl(240, 10%, 16%);
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+    border-top-right-radius: 8rem;
+
+
+}
+
+ul{
+    list-style: none;
+    padding-left: 0;
+    color: white;
+}
+
+.list
+{
+    text-align: left;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        padding: 0;
+        margin: 0;
+    }
+    img
+    {
+        max-width: 100vw;
+    }
+    .header
+    {
+        width: 100vw;
+        background-size: auto;
+        padding-bottom: 8rem;
+    }
+
+    .subcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .subcontainer1ofheader
+    {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 78vw;
+        padding-top: 5rem;
+    }
+    .grow-your
+    {
+        margin-top: 0;
+        margin-bottom: 3rem;
+    }
+
+    .subcontainer2ofheader
+    {
+        display: flex;
+        justify-content: center;
+        width: 100vw;
+    }
+    
+    #start-for-free
+    {
+        width: 25%;
+        margin-right: 25px;
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+    #learn-more
+    {
+        width: 25%;
+        padding: 15px 10px;
+        font-size: 20px;
+    }
+    .navbar
+    {
+        display: none;
+    }
+
+    .navbar-mobile
+    {
+        display: block;
+        
+        width: 100vw;
+    }
+
+    #blogr
+    {
+        height: 45px;
+       
+        margin: 10% 45% 0 5%;
+    }
+    #hamburger
+    {
+        height: 45px;
+        padding-right: 12%;
+        padding-top: 9%;
+    }
+
+    .firstcontainer
+    {
+        display: flex;
+        flex-direction: column;
+    }
+    .subcontainer
+    {
+        padding-top: 2rem;
+    }
+    .subcontainer1offirst
+    {
+        padding-top: 70px;
+    }
+    .designed-for-the-future
+    {
+        padding-bottom: 20px;
+    }
+    .subcontainer2offirst
+    {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    #subcontainer2offirst-imagepart-desktop
+    {
+        display: none;
+    }
+    #thirdcontainer-imagepart-desktop
+    {
+        display: none;
+    }
+    .thirdcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        margin-top: 5rem;
+       
+    }
+
+    .secondcontainer
+    {
+        display: flex;
+        flex-direction: column;
+        height: 200%;
+        padding-bottom: 0;
+        background-position: top;
+        background-size: 100%;
+        border-top-right-radius: 10rem;
+        border-bottom-left-radius: 10rem;
+    }
+
+
+    .secondcontainerimage
+    {
+        flex: 1;
+
+    }
+    #secondcontainerimage
+    {
+        position: relative;
+        bottom: 200px;
+        height: 100%;
+        width: 90%;
+    
+    }
+    .secondcontainertext
+    {
+        flex: 1;
+        position: relative;
+        bottom: 150px;
+        left: 15%;
+        width: 70vw;
+    }
+    #thirdcontainer-imagepart-mobile, #subcontainer2offirst-imagepart-mobile
+    {
+        display: block;
+    }
+
+    .subcontainer2offirst-textpart
+    {
+       padding: 2rem;
+       padding-bottom: 8rem;
+    }
+    .flexible-content
+    {
+        margin-bottom: 100px;
+    }
+    .thirdcontainer-textpart
+    {
+        padding: 2rem;
+    }
+    footer
+    {
+        margin-bottom: 0;
+        padding-bottom: 5rem;
+        margin-top: 5rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: fit-content;
+    }
+    .logo-footer
+    {
+        margin-bottom: 2rem;
+    }
+    .list
+    {
+       text-align: center;
+    }
+    p
+    {
+        text-align: center;
+        font-size: 25px;
+    }
+    h1, h2, h3, h4, h5
+    {
+        text-align: center;
+        font-size: 52px;
+    }
+    h1
+    {
+        font-size: 64px;
+    }
+    h4 
+    {
+        font-size: 16px;
+    }
+.P-With-reliability
+{
+    width: 100%;
+}
+#subcontainer2offirst-imagepart-mobile, #thirdcontainer-imagepart-mobile
+{
+    width: 100%;
+}
+.navbar-mobile
+{
+    display: flex;
+    justify-content: space-between;
+}
+button
+{
+    border-radius: 40px;
+}
+.footer-H
+{
+    font-size: 26px;
+}
+li
+{
+    font-size: 20px;
+}
+}    
